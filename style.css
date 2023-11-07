@@ -1,0 +1,29 @@
+/* Configurações de cores do site */
+:root{
+    --cor-fundo: #e0b895;
+    --cor-pag: #f2efec;
+    --cor-menu: #174a61;
+    --cor-textomenu: #f5f5f5;
+}
+
+/* Definições de estilo */
+body{
+    background-color: var(--cor-fundo);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: var(--cor-menu);
+    height: 60%;
+    padding: 2%;
+    font-family: Poppins;
+    text-align: center;
+    color: var(--cor-textomenu);
+}
+
+.sem-sublinhado {
+    text-decoration: none;
+    color: var(--cor-textomenu);
+}
