@@ -10,31 +10,53 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
-    
+   
         <!-- Aqui está o corpo da página -->
     <body>
         <!-- Aqui está a barra de navegação da página -->
         <section class="menu">
             <a class="pawsafety">PawsSafety</a>
-                <a href="home.html" class="sem-sublinhado">Home</a>
-                <a href="sobre.html" class="sem-sublinhado">Sobre</a>
-                <a href="ongs.html" class="sem-sublinhado">ONGs</a>
-                <a href="contribua.html" class="sem-sublinhado">Contribua</a>
-                <a href="loja.html" class="sem-sublinhado">Loja</a>
-                <a href="contato.html" class="sem-sublinhado">Contato</a>
+                <a href="home.html" class="corrige linha">Home</a>
+                <a href="sobre.html" class="corrige">Sobre</a>
+                <a href="ongs.html" class="corrige">ONGs</a>
+                <a href="contribua.html" class="corrige">Contribua</a>
+                <a href="loja.html" class="corrige">Loja</a>
+                <a href="contato.html" class="corrige">Contato</a>
                 <img src="/img/user.svg" class="icone-user">
         </section>
-
+ 
         <!-- Aqui está o corpo do site -->
         <section class="corpo">
-
+ 
         </section>
-
+ 
         <section class="rodape">
             <!-- Aqui está o rodapé -->
              
                 <p>© Todos os direitos reservados a PawsSafety</p>
-          
+         
         </section>
+ 
+                    <!-- Adicione o script JavaScript no final do corpo HTML -->
+        <script>
+            // Obtém o elemento do menu
+            var menu = document.querySelector('.menu');
+ 
+            // Obtém a posição inicial do menu
+            var menuPos = menu.offsetTop;
+ 
+            // Adiciona um ouvinte de evento de rolagem
+            window.addEventListener('scroll', function() {
+                // Verifica se a posição de rolagem é maior do que a posição inicial do menu
+                if (window.scrollY > menuPos) {
+                    // Adiciona a classe para tornar o menu fixo
+                    menu.classList.add('menu-fixo');
+                } else {
+                    // Remove a classe se a posição de rolagem for menor do que a posição inicial do menu
+                    menu.classList.remove('menu-fixo');
+                }
+            });
+        </script>
+       
     </body>
 </html>

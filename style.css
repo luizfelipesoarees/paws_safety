@@ -1,22 +1,24 @@
 /* Configurações de cores do site */
-:root{
+:root {
     --cor-fundo: #e0b895;
     --cor-pag: #f2efec;
     --cor-menu: #174a61;
     --cor-textomenu: #f5f5f5;
 }
-
+ 
 /* Definições de estilo */
-body{
+body {
     background-color: var(--cor-fundo);
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
-
+/* Restante do seu código CSS permanece o mesmo */
+ 
 .menu {
+    width: 99%;
     background-color: var(--cor-menu);
-    height: 60%;
     padding: 1.5%;
     font-family: Poppins;
     text-align: center;
@@ -27,20 +29,33 @@ body{
     font-weight: 400;
     line-height: normal;
 }
-
-.menu a {   
+/* Adicione uma nova classe para tornar o menu fixo na tela */
+.menu-fixo {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Certifica-se de que o menu esteja acima de outros elementos */
+}
+ 
+/* Aplique a classe menu-fixo quando necessário */
+.menu.menu-fixo {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+ 
+.menu a {  
     text-decoration: none;   margin-right: 20px;
 }
-
-.menu .pawsafety {   
+ 
+.menu .pawsafety {  
     margin-right: 52px; /* Espaçamento à direita do "Texto Antes" */
     }
-
-.sem-sublinhado {
+ 
+.corrige {
     text-decoration: none;
     color: var(--cor-textomenu);
 }
-
+ 
 .pawsafety {
     font-size: 30px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -48,49 +63,63 @@ body{
     font-weight: bold;
     line-height: normal;
 }
-
-.menu a {   
-    text-decoration: none;   margin-right: 20px; /* Espaçamento à direita de cada elemento de texto */
+ 
+.menu a {  
+    text-decoration: none;  
+    margin-right: 20px;
+    color: var(--cor-textomenu);
 }
-
+ 
 .icone-user {
     margin-left: 1.5%;
     vertical-align:bottom;
 }
-
-/* Aqui está o design do corpo do site */
+ 
+ 
+/* Ajuste a margem superior do corpo para diminuir o espaçamento */
 .corpo {
     background-color: var(--cor-pag);
     width: 98%;
-    height: 99%;
-    margin-top: 7%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-top-left-radius: 20px; 
-    border-top-right-radius: 20px; 
-    border-bottom-left-radius: 20px; 
-    border-bottom-right-radius: 20px; 
+    margin: 2% auto 2% ; /* Ajuste o valor da margem superior/inferior conforme necessário */
+    padding-top: 5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    min-height: calc(100vh - 100px);
+    text-align: center;
 }
-
-/* Aqui está o rodapé */
+/* Adaptação para telas menores, como celulares */
+@media only screen and (max-width: 767px) {
+    .menu {
+        padding: 2%; /* Ajuste conforme necessário para a aparência desejada */
+    }
+ 
+    .menu-fixo {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+}
+ 
+ 
+/* Mantenha a posição padrão no rodapé */
 .rodape {
     background-color: var(--cor-menu);
-    color:var(--cor-textomenu);
+    color: var(--cor-textomenu);
     text-align: center;
     padding: 1%;
-    margin-top: 49.5%;
-    position: absolute;
-
-    width: 98%;
+    width: 100%;
     font-family: Poppins;
     text-align: center;
-    color: var(--cor-textomenu);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
+}
+ 
+.menu a.linha{
+    border-bottom: 2px solid var(--cor-textomenu); /* Cor do sublinhado para a página Home */
+    padding-bottom: 5px; /* Adicione esta linha para ajustar o espaçamento */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
