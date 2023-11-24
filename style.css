@@ -4,6 +4,7 @@
     --cor-pag: #f2efec;
     --cor-menu: #174a61;
     --cor-textomenu: #f5f5f5;
+    --cor-caixa: #E6D4C4;
 }
  
 /* Definições de estilo */
@@ -184,4 +185,153 @@ h2 {
   top: 73%;
   left: 11%;
   
+}
+
+/* Corpo contato */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contato {
+  color: var(--cor-caixa);
+  border: 2px solid var(--cor-caixa);
+  background-color: var(--cor-caixa);
+  border-radius: 33px;
+  width: 11%; /* Largura da caixa */
+  max-width: 400px; /* Largura máxima da caixa */
+  height: 160px;
+  margin: 0 auto; /* Centraliza a caixa horizontalmente */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto ao centro */
+  margin-top: 3%;
+}
+
+.contato.lateral {
+  margin-left: -8%; /*Distancia das laterais das caixas de contato */
+}
+
+/* Estilos CSS para a imagem de perfil */
+.perfil {
+    width: 3.5%; /* Largura da imagem de perfil */
+    height: 7%; /* Altura da imagem de perfil */
+    border-radius: 50%; /* Cria uma forma circular */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 62%; /* Ajusta a posição vertical da imagem */
+    margin-left: 5.4%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+  }
+
+.perfil2 {
+    width: 3.5%; /* Largura da imagem de perfil */
+    height: 7%; /* Altura da imagem de perfil */
+    border-radius: 50%; /* Cria uma forma circular */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 62%; /* Ajusta a posição vertical da imagem */
+    left: 50%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+}
+
+.perfil3 {
+    width: 3.5%; /* Largura da imagem de perfil */
+    height: 7%; /* Altura da imagem de perfil */
+    border-radius: 50%; /* Cria uma forma circular */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 62%; /* Ajusta a posição vertical da imagem */
+    left: 74%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos CSS para o texto abaixo da imagem */
+.contato p {
+    color: #000000; 
+    text-align: center; 
+    font-family: Poppins; 
+    font-size: 100%;
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    margin-top: 40%; 
+}
+
+.linkedin {
+    width: 3%; /* Largura da imagem de perfil */
+    height: 6%; /* Altura da imagem de perfil */
+    border-radius: 20%; /* Cria uma forma circular */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 62%; /* Ajusta a posição vertical da imagem */
+    margin-left: 5.4%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+    margin-top: 7.5%;
+  }
+
+.linkedin2 {
+    width: 3%; /* Largura da imagem de perfil */
+    height: 6%; /* Altura da imagem de perfil */
+    border-radius: 20%; /* Cria uma forma circular */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 62%; /* Ajusta a posição vertical da imagem */
+    left: 50%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+    margin-top: 7.5%;
+}
+
+.linkedin3 {
+    width: 3%; /* Largura da imagem de perfil */
+    height: 6%; /* Altura da imagem de perfil */
+    border-radius: 20%; /* Cria uma forma circular */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 62%; /* Ajusta a posição vertical da imagem */
+    left: 74%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+    margin-top: 7.5%;
+}
+h3 {
+  color: var(--cor-menu);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  text-align: justify;
+  font-weight: bolder;
+  font-size: 300%;
+  font-style: normal;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}
+
+p1 {
+  color: #174A61;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 134%;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  display: flex;
+  margin-top: -2.5%;
+  margin-left: 35.5%;
+  
+}
+
+p2 {
+    color: #000000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 100%;
+    font-weight: normal;
 }
