@@ -64,6 +64,11 @@ body {
     line-height: normal;
 }
  
+.logo {
+    margin-right: 0.5%;
+    vertical-align:bottom;
+}
+
 .menu a {  
     text-decoration: none;  
     margin-right: 20px;
@@ -122,4 +127,61 @@ body {
     border-bottom: 2px solid var(--cor-textomenu); /* Cor do sublinhado para a página Home */
     padding-bottom: 5px; /* Adicione esta linha para ajustar o espaçamento */
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Corpo do home*/
+.saiba1 {
+    width: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: -5.3%;
+}
+
+h1 {
+    color: var(--cor-textomenu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 300%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    margin-top: -42%;
+    margin-left: 10%;
+}
+
+h2 {
+    color: var(--cor-textomenu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-size: 134%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 10%;
+}
+
+.saibamais {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 33px;
+  color: var(--cor-menu);
+  border: 2px solid var(--cor-textomenu);
+  background-color: var(--cor-textomenu);
+  cursor: pointer;
+  position: absolute;
+  position: absolute;
+  top: 73%;
+  left: 11%;
+  
 }
