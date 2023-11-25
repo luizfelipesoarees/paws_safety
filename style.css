@@ -93,20 +93,40 @@ body {
     min-height: calc(100vh - 100px);
     text-align: center;
 }
-/* Adaptação para telas menores, como celulares */
-@media only screen and (max-width: 767px) {
-    .menu {
-        padding: 2%; /* Ajuste conforme necessário para a aparência desejada */
-    }
- 
-    .menu-fixo {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1000;
-    }
+
+.corpoh {
+    background-color:var(--cor-fundo);
+    width: 98%;
+    margin: 2% auto 2% ; /* Ajuste o valor da margem superior/inferior conforme necessário */
+    padding-top: 5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    min-height: calc(500vh - 100px);
+    text-align: center;
 }
- 
+
+.corpocont {
+    background-color: var(--cor-pag);
+    width: 98%;
+    margin: 2% auto 2% ; /* Ajuste o valor da margem superior/inferior conforme necessário */
+    padding-top: 5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    min-height: calc(81vh - 100px);
+    text-align: center;
+}
+
+.corposobre {
+    background-color: var(--cor-pag);
+    width: 98%;
+    margin: 2% auto 2% ; /* Ajuste o valor da margem superior/inferior conforme necessário */
+    padding-top: 5%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    min-height: calc(140vh - 100px);
+    text-align: center;
+}
+
  
 /* Mantenha a posição padrão no rodapé */
 .rodape {
@@ -138,6 +158,37 @@ body {
     border-top-right-radius: 20px;
     margin-top: -5.3%;
 }
+.saiba2 {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: -0.3%;
+    
+}
+
+.saiba3 {
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -0.3%;
+}
+
+.saiba4 {
+    width: 100%;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -5.3%;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
 
 h1 {
     color: var(--cor-textomenu);
@@ -167,6 +218,212 @@ h2 {
     margin-left: 10%;
 }
 
+h3 {
+    color: var(--cor-menu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 300%;
+    font-style: normal;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+  }
+
+h4{
+    color: var(--cor-textomenu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 300%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    margin-top: -52%;
+    margin-left: 70%;
+}
+
+h5{
+    color: var(--cor-textomenu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: right;
+    font-size: 134%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: -42%;
+    margin-left: 50%;
+}
+
+h6{
+    color: var(--cor-textomenu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 300%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    margin-top: -52%;
+    margin-left: 68%;
+}
+
+
+
+/*sobre*/
+
+h7{
+    color: var(--cor-menu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 300%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: -44%;
+
+}
+
+h8{
+    color: var(--cor-menu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 300%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -44%;
+
+}
+
+h9{
+
+    color: var(--cor-menu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 300%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -44%;
+}
+
+h10{
+    color: var(--cor-menu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 300%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    margin-top: 32%;
+    margin-left: -44%;
+
+}
+
+
+
+
+p3{
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-size: 110%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -44%;
+
+}
+
+p4{
+
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-size: 110%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 14%;
+    margin-left: -44%;
+}
+
+p5{
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-size: 110%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 26%;
+    margin-left: -44%;
+
+}
+
+
+p6{
+    color: black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-size: 110%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 36%;
+    margin-left: -44%;
+
+}
+
+p7{
+    color: var(--cor-menu);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 150%;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    margin-top: 46%;
+    margin-left: -42%;
+
+}
+
+
+
+
+
+
+
+
+
 .saibamais {
   display: inline-block;
   padding: 10px 20px;
@@ -187,9 +444,93 @@ h2 {
   
 }
 
+.queroajudar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 33px;
+    color: var(--cor-menu);
+    border: 2px solid var(--cor-textomenu);
+    background-color: var(--cor-textomenu);
+    cursor: pointer;
+    position: absolute;
+    position: absolute;
+    left: 77.5%;
+    margin-top: 30%;
+    
+  }
+  
+  .querocomprar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 33px;
+    color: var(--cor-menu);
+    border: 2px solid var(--cor-textomenu);
+    background-color: var(--cor-textomenu);
+    cursor: pointer;
+    position: absolute;
+    position: absolute;
+    top: 295%;
+    left: 11%;
+    
+  }
+
+  .queroconhecer {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 33px;
+    color: var(--cor-menu);
+    border: 2px solid var(--cor-textomenu);
+    background-color: var(--cor-textomenu);
+    cursor: pointer;
+    position: absolute;
+    position: absolute;
+    left: 74%;
+    margin-top: 30%;
+    
+  }
+
+  .entrecontato {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 33px;
+    color: var(--cor-menu);
+    border: 2px solid var(--cor-textomenu);
+    background-color: var(--cor-textomenu);
+    cursor: pointer;
+    position: absolute;
+    position: absolute;
+    top: 520%;
+    left: 11%;
+    
+  }
+
 /* Corpo contato */
 
 .container {
+    display: flex;
+    justify-content: space-around;
+}
+.container2 {
     display: flex;
     justify-content: space-around;
 }
@@ -218,7 +559,7 @@ h2 {
     height: 7%; /* Altura da imagem de perfil */
     border-radius: 50%; /* Cria uma forma circular */
     position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
-    top: 62%; /* Ajusta a posição vertical da imagem */
+    top: 51%; /* Ajusta a posição vertical da imagem */
     margin-left: 5.4%; /* Posiciona a imagem no centro horizontal */
     transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
     background-size: cover;
@@ -230,7 +571,7 @@ h2 {
     height: 7%; /* Altura da imagem de perfil */
     border-radius: 50%; /* Cria uma forma circular */
     position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
-    top: 62%; /* Ajusta a posição vertical da imagem */
+    top: 51%; /* Ajusta a posição vertical da imagem */
     left: 50%; /* Posiciona a imagem no centro horizontal */
     transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
     background-size: cover;
@@ -242,12 +583,83 @@ h2 {
     height: 7%; /* Altura da imagem de perfil */
     border-radius: 50%; /* Cria uma forma circular */
     position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
-    top: 62%; /* Ajusta a posição vertical da imagem */
+    top: 51%; /* Ajusta a posição vertical da imagem */
     left: 74%; /* Posiciona a imagem no centro horizontal */
     transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
     background-size: cover;
     background-position: center;
 }
+
+.fotoloja {
+    width: 7%; /* Largura da imagem de perfil */
+    height: 15%; /* Altura da imagem de perfil */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 51%; /* Ajusta a posição vertical da imagem */
+    margin-left: 5.4%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+  }
+  .fotoloja2 {
+    width: 7%; /* Largura da imagem de perfil */
+    height: 15%; /* Altura da imagem de perfil */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 51%; /* Ajusta a posição vertical da imagem */
+    left: 50%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+}
+
+.fotoloja3 {
+    width: 7%; /* Largura da imagem de perfil */
+    height: 15%; /* Altura da imagem de perfil */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 51%; /* Ajusta a posição vertical da imagem */
+    left: 74%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+}
+
+.fotoloja4 {
+    width: 5%; /* Largura da imagem de perfil */
+    height: 15%; /* Altura da imagem de perfil */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 81%; /* Ajusta a posição vertical da imagem */
+    margin-left: 5.4%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+  }
+  .fotoloja5 {
+    width: 9%; /* Largura da imagem de perfil */
+    height: 15%; /* Altura da imagem de perfil */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 79%; /* Ajusta a posição vertical da imagem */
+    left: 50%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+}
+
+.fotoloja6 {
+    width: 9%; /* Largura da imagem de perfil */
+    height: 15%; /* Altura da imagem de perfil */
+    position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
+    top: 81%; /* Ajusta a posição vertical da imagem */
+    left: 74.2%; /* Posiciona a imagem no centro horizontal */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
 
 /* Estilos CSS para o texto abaixo da imagem */
 .contato p {
@@ -259,7 +671,7 @@ h2 {
     font-style: normal;
     font-weight: 600;
     line-height: normal; 
-    margin-top: 40%; 
+    margin-top: 35%; 
 }
 
 .linkedin {
@@ -267,7 +679,7 @@ h2 {
     height: 6%; /* Altura da imagem de perfil */
     border-radius: 20%; /* Cria uma forma circular */
     position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
-    top: 62%; /* Ajusta a posição vertical da imagem */
+    top: 48%; /* Ajusta a posição vertical da imagem */
     margin-left: 5.4%; /* Posiciona a imagem no centro horizontal */
     transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
     background-size: cover;
@@ -280,7 +692,7 @@ h2 {
     height: 6%; /* Altura da imagem de perfil */
     border-radius: 20%; /* Cria uma forma circular */
     position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
-    top: 62%; /* Ajusta a posição vertical da imagem */
+    top: 48%; /* Ajusta a posição vertical da imagem */
     left: 50%; /* Posiciona a imagem no centro horizontal */
     transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
     background-size: cover;
@@ -293,25 +705,14 @@ h2 {
     height: 6%; /* Altura da imagem de perfil */
     border-radius: 20%; /* Cria uma forma circular */
     position: absolute; /* Posiciona a imagem absolutamente dentro da caixa */
-    top: 62%; /* Ajusta a posição vertical da imagem */
+    top: 48%; /* Ajusta a posição vertical da imagem */
     left: 74%; /* Posiciona a imagem no centro horizontal */
     transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
     background-size: cover;
     background-position: center;
     margin-top: 7.5%;
 }
-h3 {
-  color: var(--cor-menu);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Poppins;
-  text-align: justify;
-  font-weight: bolder;
-  font-size: 300%;
-  font-style: normal;
-  line-height: normal;
-  position: relative;
-  text-align: center;
-}
+
 
 p1 {
   color: #174A61;
@@ -324,7 +725,7 @@ p1 {
   position: relative;
   display: flex;
   margin-top: -2.5%;
-  margin-left: 35.5%;
+  margin-left: 38.5%;
   
 }
 
@@ -362,18 +763,18 @@ p2 {
     position: relative;
     display: flex;
     margin-top: 0.5%;
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 .corpoloja2 {
     color: #000000;
-    text-align: justify;
+    text-align: center;
     font-family: Poppins;
     font-size: 100%;
     font-weight: normal;
     position: absolute;
     margin-top: -1%;
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 .container2 {
@@ -405,8 +806,8 @@ p2 {
     font-style: normal;
     font-weight: 600;
     line-height: normal; 
-    margin-top: 80%; 
-    margin-left: 1%;
+    margin-top: 75%; 
+    margin-left: 15%;
     white-space: nowrap; /* Impede que o texto quebre */
 }
   
@@ -440,12 +841,30 @@ p2 {
     font-style: normal;
     font-weight: 600;
     line-height: normal; 
-    margin-top: 80%;
-    margin-left: 1%; 
+    margin-top: 75%;
+    margin-left: 15%; 
     white-space: nowrap; /* Impede que o texto quebre */
 }
 .loja.lateral2 {
     margin-left: -7%; /*Distancia das laterais das caixas de contato */
     margin-top: 4%;
     white-space: nowrap; /* Impede que o texto quebre */
+}
+
+
+
+.retangulo {
+   
+    width: 80%;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 20px;
+    margin: 2%;
+    margin-left: 9%;
+   
+}
+
+.botoes{
+    margin-top: -7%;
+    margin-bottom: -2%;
 }
