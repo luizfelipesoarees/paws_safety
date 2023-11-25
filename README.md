@@ -1,4 +1,4 @@
-# PawsSafety 🐕💻
+# PawsSafety 🐾💻
 ## Visite o site 🌐
 > https://pawssfaety.netlify.app/home
 
