@@ -8,12 +8,12 @@
 ## Código </>
 > Abaixo estão as tags que utilizamos no código, organizadas por categorias. Essas tags são parte do código HTML e CSS para criar a página PawsSafety. Se tiver alguma dúvida ou quiser mais informações sobre alguma parte específica, sinta-se à vontade para perguntar.<br />
 > Na estrutura do HTML, foram foi utilizadas as seguintes tags:<br /><br />
-> "<!DOCTYPE html>": Indica a versão do HTML.<br />
-> <html lang="pt-BR">: Define o idioma da página.<br />
-> <head>: Contém meta-informações sobre o documento.<br />
-> <meta charset="UTF-8">: Define a codificação de caracteres.<br />
-> <meta name="viewpoint" content="width=device=width, inicial-scale-1,0">: Configura a escala inicial e a largura do dispositivo.<br />
-> <title>PawsSafety</title>: Título da página exibido na aba do navegador.<br />
+> "!DOCTYPE html": Indica a versão do HTML.<br />
+> "html lang="pt-BR"": Define o idioma da página.<br />
+> "head": Contém meta-informações sobre o documento.<br />
+> "meta charset="UTF-8"": Define a codificação de caracteres.<br />
+> "meta name="viewpoint" content="width=device=width, inicial-scale-1,0"": Configura a escala inicial e a largura do dispositivo.<br />
+> "title>PawsSafety</title": Título da página exibido na aba do navegador.<br />
 > Links para folha de estilos, ícone da página e fontes externas.<br />
 
 Corpo da Página:
