@@ -25,11 +25,11 @@
   
 > Já na estrutura do CSS, as tags utilizadas foram:<br /><br />
 >Configurações de Cores:<br /><br />
->:root: Define variáveis para as cores utilizadas no site.<br /><br />
+>":root": Define variáveis para as cores utilizadas no site.<br /><br />
 >Estilos Gerais:<br /><br />
->body: Estilos gerais aplicados ao corpo da página.<br />
->.menu: Estilos para a barra de navegação.<br />
->.menu-fixo: Estilos adicionais para o menu fixo.<br />
+>"body": Estilos gerais aplicados ao corpo da página.<br />
+>".menu": Estilos para a barra de navegação.<br />
+>".menu-fixo": Estilos adicionais para o menu fixo.<br />
 >Estilos específicos para links, logotipo, ícone de usuário, etc.<br /><br />
 >Estilos para as Seções:<br /><br />
 >Estilos específicos para diferentes seções do site (corpo, corpoh, corpocont, corposobre).<br />
@@ -40,8 +40,4 @@
 >Estilos para o Rodapé:<br /><br />
 >Estilos aplicados ao rodapé, como cor de fundo e texto.<br /><br />
 >Estilos para Imagens e Posicionamento:<br /><br />
->Estilos aplicados às imagens, como bordas arredondadas e posicionamento absoluto.<br /><br />
->Estilos para Responsividade:<br /><br />
->Algumas configurações para tornar a página responsiva.
-
-
+>Estilos aplicados às imagens, como bordas arredondadas e posicionamento absoluto.
