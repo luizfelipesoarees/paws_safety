@@ -57,14 +57,14 @@ Estilos para as Seções:<br /><br />
 * Estilos específicos para diferentes seções do site (corpo, corpoh, corpocont, corposobre).<br />
 * Utilização de bordas arredondadas e margens.<br /><br />
 <img src="img/2corpo.jpg">
->Nessa imagem podemos ver um codigo base para as funções de corpo
+> Nessa imagem podemos ver um codigo base para as funções de corpo<br />
 
 Estilos para Textos e Botões:<br /><br />
 
 * Definições de fontes, sombras, cores, etc.<br />
 * Estilos específicos para os botões "Saiba Mais", "Quero Ajudar", etc.<br /><br />
 <img src="img/3botoes.jpg">
->Nessa imagem podemos ver um codigo base para as funções de botão
+> Nessa imagem podemos ver um codigo base para as funções de botão<br />
 
 Estilos para o Rodapé:<br /><br />
 
@@ -75,4 +75,4 @@ Estilos para Imagens e Posicionamento:<br /><br />
 
 * Estilos aplicados às imagens, como bordas arredondadas e posicionamento absoluto.
 * <img src="img/5imagens">
->Nessa imagem podemos ver um codigo base para as definições das imagens
+> Nessa imagem podemos ver um codigo base para as definições das imagens<br />
