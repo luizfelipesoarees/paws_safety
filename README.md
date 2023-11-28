@@ -42,6 +42,7 @@ Abaixo estão as tags que utilizamos no código, organizadas por categorias. Ess
 Configurações de Cores:<br /><br />
 
 * **`:root:`** Define variáveis para as cores utilizadas no site.<br /><br />
+<img src="img/1root.jpg">
 
 Estilos Gerais:<br /><br />
 
