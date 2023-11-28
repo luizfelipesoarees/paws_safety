@@ -95,3 +95,8 @@ Estilos para Imagens e Posicionamento:<br /><br />
     <img src="img/5contato.jpg"><br />
     A tela **`CONTATO`**, tem como função principal reunir nossos meios de comunicação, no momento estamos direcionando ao LinkedIn de cada desenvolvedor ao clicar no botão referênciado;
 
+## 💡 Integrantes do projeto
+
+* [Felipe Avelino Pedaes](https://github.com/ITzspi)
+* [Henrique Almeida Florentino](https://github.com/henriqueflorentino)
+* [Luiz Felipe Vieira Soares](https://github.com/luizfelipesoarees)
