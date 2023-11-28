@@ -17,7 +17,7 @@ Confira o nosso FIGMA, onde aqui idealizamos o formato do nosso site, identidade
 ## ⚙️ Código 
 Abaixo estão as tags que utilizamos no código, organizadas por categorias. Essas tags são parte do código HTML e CSS para criar a página PawsSafety. <br /><br />
 
-## </> HTML 
+* ## </> HTML 
 > Na estrutura do HTML, foram foi utilizadas as seguintes tags:<br /><br />
 
 * **`!DOCTYPE html:`**  Indica a versão do HTML.<br />
@@ -36,7 +36,7 @@ Abaixo estão as tags que utilizamos no código, organizadas por categorias. Ess
 * **`section class="rodape":`** Rodapé da página.<br />
 * **`script:`** Script JavaScript para tornar o menu fixo ao rolar o conteúdo.<br /><br />
 
-## 🎨 CSS
+* ## 🎨 CSS
 > Já na estrutura do CSS, as tags utilizadas foram:<br /><br />
 
 Configurações de Cores:<br /><br />
