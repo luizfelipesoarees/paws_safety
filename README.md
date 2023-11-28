@@ -81,8 +81,9 @@ Estilos para Imagens e Posicionamento:<br /><br />
 
 * ## 🏠 Home
     <img src="img/1home.jpg"><br />
+A tela * **`HOME`**, tem como função principal reunir de forma resumida todas as páginas presentes no site, onde através de um botão, como na imagem de exemplo o * **`Saiba mais`**, vai redirecionar para a página referênciada
 * ## 🔎 Sobre
-    <img src="img/2sobrejpg"><br />
+    <img src="img/2sobre.jpg"><br />
 * ## 🤝 ONGs e Contribua
     <img src="img/3ongsecont.jpg"><br />
 * ## 🏷️ Loja
