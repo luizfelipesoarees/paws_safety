@@ -64,7 +64,7 @@ Estilos para Textos e Botões:<br /><br />
 * Definições de fontes, sombras, cores, etc.<br />
 * Estilos específicos para os botões "Saiba Mais", "Quero Ajudar", etc.<br /><br />
 <img src="img/3botoes.jpg"><br />
-> Nessa imagem podemos ver um codigo base para as funções de botão<br />
+> Nessa imagem podemos ver um codigo base para as funções dos botões<br />
 
 Estilos para o Rodapé:<br /><br />
 
@@ -73,6 +73,6 @@ Estilos para o Rodapé:<br /><br />
 
 Estilos para Imagens e Posicionamento:<br /><br />
 
-* Estilos aplicados às imagens, como bordas arredondadas e posicionamento absoluto.
-  <img src="img/5imagens"><br />
+* Estilos aplicados às imagens, como bordas arredondadas e posicionamento absoluto.<br /><br />
+<img src="img/5imagens"><br />
 > Nessa imagem podemos ver um codigo base para as definições das imagens<br />
