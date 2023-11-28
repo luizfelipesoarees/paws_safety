@@ -89,7 +89,7 @@ body {
     padding-top: 5%;
     box-sizing: border-box;
     border-radius: 20px;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px); /* Ajusta o tamanho da altutra do fundo da pagina conforme necessário */
     text-align: center;
 }
 
@@ -100,7 +100,7 @@ body {
     padding-top: 5%;
     box-sizing: border-box;
     border-radius: 20px;
-    min-height: calc(500vh - 100px);
+    min-height: calc(500vh - 100px); /* Ajusta o tamanho da altutra do fundo da pagina conforme necessário */
     text-align: center;
 }
 
@@ -111,7 +111,7 @@ body {
     padding-top: 5%;
     box-sizing: border-box;
     border-radius: 20px;
-    min-height: calc(81vh - 100px);
+    min-height: calc(81vh - 100px); /* Ajusta o tamanho da altutra do fundo da pagina conforme necessário */
     text-align: center;
 }
 
@@ -122,7 +122,7 @@ body {
     padding-top: 5%;
     box-sizing: border-box;
     border-radius: 20px;
-    min-height: calc(140vh - 100px);
+    min-height: calc(140vh - 100px); /* Ajusta o tamanho da altutra do fundo da pagina conforme necessário */
     text-align: center;
 }
 
