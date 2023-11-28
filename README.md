@@ -42,7 +42,7 @@ Abaixo estão as tags que utilizamos no código, organizadas por categorias. Ess
 Configurações de Cores:<br /><br />
 
 * **`:root:`** Define variáveis para as cores utilizadas no site.<br /><br />
-<img src="img/1root.jpg">
+<img src="img/1root.jpg"><br />
 
 Estilos Gerais:<br /><br />
 
@@ -56,23 +56,23 @@ Estilos para as Seções:<br /><br />
 
 * Estilos específicos para diferentes seções do site (corpo, corpoh, corpocont, corposobre).<br />
 * Utilização de bordas arredondadas e margens.<br /><br />
-<img src="img/2corpo.jpg">
+<img src="img/2corpo.jpg"><br />
 > Nessa imagem podemos ver um codigo base para as funções de corpo<br />
 
 Estilos para Textos e Botões:<br /><br />
 
 * Definições de fontes, sombras, cores, etc.<br />
 * Estilos específicos para os botões "Saiba Mais", "Quero Ajudar", etc.<br /><br />
-<img src="img/3botoes.jpg">
+<img src="img/3botoes.jpg"><br />
 > Nessa imagem podemos ver um codigo base para as funções de botão<br />
 
 Estilos para o Rodapé:<br /><br />
 
 * Estilos aplicados ao rodapé, como cor de fundo e texto.<br /><br />
-<img src="img/4rodape.jpg">
+<img src="img/4rodape.jpg"><br />
 
 Estilos para Imagens e Posicionamento:<br /><br />
 
 * Estilos aplicados às imagens, como bordas arredondadas e posicionamento absoluto.
-* <img src="img/5imagens">
+  <img src="img/5imagens"><br />
 > Nessa imagem podemos ver um codigo base para as definições das imagens<br />
