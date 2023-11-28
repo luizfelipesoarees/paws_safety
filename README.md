@@ -11,7 +11,7 @@ A base inicial e funcional do projeto está pronta! Esse modelo porém não est�
 
 ## 📂 Prototipagem
 Confira o nosso FIGMA, onde aqui idealizamos o formato do nosso site, identidade, cores e design geral<br />
-> https://www.figma.com/file/4BZW83YcSUZudV12h0fniL/PawsSafety-Page?type=design&node-id=0-1&mode=design&t=hGjAcsi8cmQYh7lF-0
+> [PawsSafety || Conheça nosso FIGMA! ](https://www.figma.com/file/4BZW83YcSUZudV12h0fniL/PawsSafety-Page?type=design&node-id=0-1&mode=design&t=hGjAcsi8cmQYh7lF-0)
 
 
 ## ⚙️ Código 
