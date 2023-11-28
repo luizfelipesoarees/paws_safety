@@ -76,3 +76,12 @@ Estilos para Imagens e Posicionamento:<br /><br />
 * Estilos aplicados às imagens, como bordas arredondadas e posicionamento absoluto.<br /><br />
 <img src="img/5imagens.jpg"><br />
 > Nessa imagem podemos ver um codigo base para as definições das imagens<br />
+
+## 🎯 Funcionalidades das telas
+
+## 🏠 Home
+## 🔎 Sobre
+## 🤝 ONGs e Contribua
+## 🏷️ Loja
+## 💬 Contato
+
