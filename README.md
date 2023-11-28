@@ -8,7 +8,7 @@
 
 
 ## 📂 Prototipagem
-> Confira o nosso FIGMA, onde aqui idealizamos o formato do nosso site, identidade, cores e design geral
+Confira o nosso FIGMA, onde aqui idealizamos o formato do nosso site, identidade, cores e design geral<br />
 > https://www.figma.com/file/4BZW83YcSUZudV12h0fniL/PawsSafety-Page?type=design&node-id=0-1&mode=design&t=hGjAcsi8cmQYh7lF-0
 
 
