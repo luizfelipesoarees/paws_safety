@@ -79,7 +79,7 @@ Estilos para Imagens e Posicionamento:<br /><br />
 
 ## 🎯 Funcionalidades das telas
 
-## 🏠 Home
+## * 🏠 Home
 ## 🔎 Sobre
 ## 🤝 ONGs e Contribua
 ## 🏷️ Loja
