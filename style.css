@@ -88,7 +88,7 @@ body {
     margin: 2% auto 2% ; /* Ajusta o valor da margem superior/inferior conforme necessário */
     padding-top: 5%;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 20px; /* Ajusta o tamanho da borda da página */
     min-height: calc(100vh - 100px); /* Ajusta o tamanho da altutra do fundo da pagina conforme necessário */
     text-align: center;
 }
@@ -99,7 +99,7 @@ body {
     margin: 2% auto 2% ; /* Ajusta o valor da margem superior/inferior conforme necessário */
     padding-top: 5%;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 20px; /* Ajusta o tamanho da borda da página */
     min-height: calc(500vh - 100px); /* Ajusta o tamanho da altutra do fundo da pagina conforme necessário */
     text-align: center;
 }
@@ -110,7 +110,7 @@ body {
     margin: 2% auto 2% ; /* Ajusta o valor da margem superior/inferior conforme necessário */
     padding-top: 5%;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 20px; /* Ajusta o tamanho da borda da página */
     min-height: calc(81vh - 100px); /* Ajusta o tamanho da altutra do fundo da pagina conforme necessário */
     text-align: center;
 }
@@ -121,7 +121,7 @@ body {
     margin: 2% auto 2% ; /* Ajusta o valor da margem superior/inferior conforme necessário */
     padding-top: 5%;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 20px; /* Ajusta o tamanho da borda da página */
     min-height: calc(140vh - 100px); /* Ajusta o tamanho da altutra do fundo da pagina conforme necessário */
     text-align: center;
 }
