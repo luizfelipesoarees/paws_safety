@@ -80,8 +80,13 @@ Estilos para Imagens e Posicionamento:<br /><br />
 ## 🎯 Funcionalidades das telas
 
 * ## 🏠 Home
+    <img src="img/1home.jpg"><br />
 * ## 🔎 Sobre
+    <img src="img/2sobrejpg"><br />
 * ## 🤝 ONGs e Contribua
+    <img src="img/3ongsecont.jpg"><br />
 * ## 🏷️ Loja
+    <img src="img/4loja.jpg"><br />
 * ## 💬 Contato
+    <img src="img/5contato.jpg"><br />
 
