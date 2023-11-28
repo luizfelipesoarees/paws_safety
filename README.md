@@ -27,23 +27,35 @@ Abaixo estão as tags que utilizamos no código, organizadas por categorias. Ess
 * **`section class="corpoh":`** Seção principal do conteúdo da página.<br />
 * **`section class="rodape":`** Rodapé da página.<br />
 * **`script:`** Script JavaScript para tornar o menu fixo ao rolar o conteúdo.<br /><br />
-  
+
+## 🎨 CSS
 > Já na estrutura do CSS, as tags utilizadas foram:<br /><br />
 
->Configurações de Cores:<br /><br />
->":root": Define variáveis para as cores utilizadas no site.<br /><br />
->Estilos Gerais:<br /><br />
->"body": Estilos gerais aplicados ao corpo da página.<br />
->".menu": Estilos para a barra de navegação.<br />
->".menu-fixo": Estilos adicionais para o menu fixo.<br />
->Estilos específicos para links, logotipo, ícone de usuário, etc.<br /><br />
->Estilos para as Seções:<br /><br />
->Estilos específicos para diferentes seções do site (corpo, corpoh, corpocont, corposobre).<br />
->Utilização de bordas arredondadas e margens.<br /><br />
->Estilos para Textos e Botões:<br /><br />
->Definições de fontes, sombras, cores, etc.<br />
->Estilos específicos para os botões "Saiba Mais", "Quero Ajudar", etc.<br /><br />
->Estilos para o Rodapé:<br /><br />
->Estilos aplicados ao rodapé, como cor de fundo e texto.<br /><br />
->Estilos para Imagens e Posicionamento:<br /><br />
->Estilos aplicados às imagens, como bordas arredondadas e posicionamento absoluto.
+Configurações de Cores:<br /><br />
+
+* **`:root": Define variáveis para as cores utilizadas no site.<br /><br />
+
+Estilos Gerais:<br /><br />
+
+* **`body": Estilos gerais aplicados ao corpo da página.<br />
+* **`.menu": Estilos para a barra de navegação.<br />
+* **`.menu-fixo": Estilos adicionais para o menu fixo.<br />
+* Estilos específicos para links, logotipo, ícone de usuário, etc.<br /><br />
+
+Estilos para as Seções:<br /><br />
+
+* Estilos específicos para diferentes seções do site (corpo, corpoh, corpocont, corposobre).<br />
+* Utilização de bordas arredondadas e margens.<br /><br />
+
+Estilos para Textos e Botões:<br /><br />
+
+* Definições de fontes, sombras, cores, etc.<br />
+* Estilos específicos para os botões "Saiba Mais", "Quero Ajudar", etc.<br /><br />
+
+Estilos para o Rodapé:<br /><br />
+
+* Estilos aplicados ao rodapé, como cor de fundo e texto.<br /><br />
+
+Estilos para Imagens e Posicionamento:<br /><br />
+
+* Estilos aplicados às imagens, como bordas arredondadas e posicionamento absoluto.
