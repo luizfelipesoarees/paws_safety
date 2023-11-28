@@ -1,6 +1,7 @@
 # PawsSafety 🐾💻
 
 ## 🌐 Visite o site 
+A base inicial e funcional do projeto está pronta! Esse modelo porém não está responsivo, caso aconteça algum problema na visualização do site peço para que ajuste o zoom da pagina para que assim consiga ver o resultado esperado.<br />
 > https://pawssafety.netlify.app/
 
 ## 📜 Sobre o projeto 
