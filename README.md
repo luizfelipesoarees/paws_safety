@@ -37,9 +37,9 @@ Configurações de Cores:<br /><br />
 
 Estilos Gerais:<br /><br />
 
-* **`body": Estilos gerais aplicados ao corpo da página.<br />
-* **`.menu": Estilos para a barra de navegação.<br />
-* **`.menu-fixo": Estilos adicionais para o menu fixo.<br />
+* **`body:`** Estilos gerais aplicados ao corpo da página.<br />
+* **`.menu:`** Estilos para a barra de navegação.<br />
+* **`.menu-fixo:`** Estilos adicionais para o menu fixo.<br />
 * Estilos específicos para links, logotipo, ícone de usuário, etc.<br /><br />
 
 Estilos para as Seções:<br /><br />
