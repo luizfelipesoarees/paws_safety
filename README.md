@@ -14,7 +14,7 @@
 * **`meta charset="UTF-8:`** Define a codificação de caracteres.<br />
 * **`meta name="viewpoint" content="width=device=width, inicial-scale-1,0":`** Configura a escala inicial e a largura do dispositivo.<br />
 * **`title>PawsSafety</title:`** Título da página exibido na aba do navegador.<br />
-> Links para folha de estilos, ícone da página e fontes externas.<br /><br />
+* Links para folha de estilos, ícone da página e fontes externas.<br /><br />
 
 > No corpo da página, utilizamos as seguintes tags:<br /><br />
 >"body": Início do corpo da página.<br />
